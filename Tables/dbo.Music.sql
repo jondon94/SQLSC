@@ -1,0 +1,10 @@
+CREATE TABLE [dbo].[Music]
+(
+[id] [int] NOT NULL IDENTITY(1, 1),
+[Artist] [varchar] (25) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL,
+[Album] [varchar] (25) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL,
+[SONG] [varchar] (25) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL
+) ON [PRIMARY]
+GO
+ALTER TABLE [dbo].[Music] ADD CONSTRAINT [PK__Music__3213E83FFF422042] PRIMARY KEY CLUSTERED  ([id]) ON [PRIMARY]
+GO
