@@ -1,0 +1,2 @@
+# SQLSC
+RedgateSQLSourceControl
